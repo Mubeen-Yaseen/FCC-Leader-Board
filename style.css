@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2a2a40;
+}
+table{
+    margin: 0px 34px;
+    width: 95%;
+    margin-top: 1.3rem;    
+    font-family: "Radio Canada Big", sans-serif;
+    color: white;
+    border-collapse: collapse;
+}
+thead{
+    font-size: 23px;
+    font-family: "Radio Canada Big", sans-serif;
+    
+}
+.title{
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    color: whitesmoke;
+}
+#topic{
+    width: 60%;
+    text-align: start;
+}
+td:not(:first-child){
+    text-align: center;
+}
+
+th{
+    border-bottom: 1px solid white;
+    padding: 30px 0px;
+}
+td{
+    border-bottom: 1px solid white;
+    padding: 30px 0px;
+}
+#poster-container{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.categoryanchor{
+    display: block;
+    padding: 7px 7px;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    background: #93cb5b;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.career{
+    background-color: #6bca6b;
+}
+.javascript{
+background-color: #f1ba33;
+}
+.html-css{
+background-color: #8bd9f6;
+}
+.python{
+background-color: #6bca6b;
+}
+.feedback{
+background-color: #d0d0d5;
+}
+.support{
+background-color: aquamarine;
+}
+.motivation{
+background-color: cadetblue;
+}
+.backend{
+background-color: #f9aa23;
+}
